@@ -11,23 +11,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet prefetch" href="main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum&amp;display=swap" rel="stylesheet">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Strona główna</title>
 </head>
 <body>
+
+<div class="borderStyle">
+  <div class="tabHeader">
 <h1>Przegldarka miast</h1>
+  </div>
+  <div class="tabContent">
+
 <form action="ControllerServlet" method="post">
-  <input type="text" placeholder="miasto" name="city">
+  <div class="dataStyle">
+  <input type="text" placeholder="miasto" name="city" class="inputStyle">
   <br>
-  <input type="text" placeholder="kod państwa" name="country">
+  <input type="text" placeholder="kod państwa" name="country" class="inputStyle">
   <br>
-  <input type="text" placeholder="region" name="district">
+  <input type="text" placeholder="region" name="district" class="inputStyle">
   <br>
-  <input type="number" placeholder="populacja" name="population">
+  <input type="number" placeholder="populacja" name="population" class="inputStyle">
   <br>
   Dodaj<input type="radio" name="option" value="add"> Usuń <input type="radio" name="option" value="delete">
   <br>
-  <input type="submit" value="Wyślij">
+  <input type="submit" value="Wyślij" class="buttonStyle">
+  </div>
 </form>
+
+</div>
+</div>
+
 </body>
 </html>
