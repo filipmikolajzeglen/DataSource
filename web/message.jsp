@@ -23,5 +23,8 @@
 <h1><%= request.getAttribute("message") %></h1>
     </div>
 </div>
+
+<div class="foot">project by Filip Żegleń</div>
+
 </body>
 </html>

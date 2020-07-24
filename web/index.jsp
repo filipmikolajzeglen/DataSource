@@ -43,5 +43,7 @@
 </div>
 </div>
 
+<div class="foot">project by Filip Żegleń</div>
+
 </body>
 </html>
